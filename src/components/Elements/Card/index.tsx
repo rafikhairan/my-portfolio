@@ -28,7 +28,7 @@ const Card = ({
         <CardItem translateZ="35" className="w-full">
           <img
             src={image}
-            className="h-full rounded-lg object-cover group-hover/card:shadow-xl"
+            className="w-full rounded-lg object-cover group-hover/card:shadow-xl"
             alt={title}
           />
         </CardItem>

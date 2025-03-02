@@ -1,5 +1,5 @@
 import Hero from "@/components/Fragments/Hero.tsx";
-import Contact from "@/components/Fragments/Contact.tsx";
+// import Contact from "@/components/Fragments/Contact.tsx";
 import About from "@/components/Fragments/About.tsx";
 import Navbar from "@/components/Fragments/Navbar.tsx";
 import Project from "@/components/Fragments/Project.tsx";
@@ -14,7 +14,7 @@ const App = () => {
       <About />
       <Project />
       <WorkExperience />
-      <Contact />
+      {/*<Contact />*/}
       <Footer />
     </>
   );
